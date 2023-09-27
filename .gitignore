@@ -1,0 +1,17 @@
+# dev configs
+.vs/
+.vscode/
+.idea
+
+# compilation
+out/
+builddir/
+*.o
+
+# Test files
+*.png
+*.jpg
+*.jpeg
+
+# test files
+lala.fss
