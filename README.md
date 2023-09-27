@@ -18,7 +18,7 @@ idc compile it or install it from the release.. <br/>
 #### step to follow after installing requirements:
 1. Copy the repo
 ```bash 
-git clone https://github.com/ReDevCafe/mefetch.git | cd mefetch
+git clone https://github.com/ReDevCafe/MeFetch.git | cd MeFetch
 ```
 
 2. Compile the package
