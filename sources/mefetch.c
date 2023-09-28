@@ -11,11 +11,7 @@ char* WINDOW_BACKGROUND_PATH;
 
 int main(int argc, char *argv[])
 {
-    if(Load_Variables(argc, argv) != 0)
-    {
-        printf(YELLOW "↻" RESET " Something is fucked up.\n");
-        return 1;
-    }
+    if(Load_Variables(argc, argv) != 0) return 1;
 
     printf(MAGENTA "mefetch" RESET " as loaded "CYAN "variables" RESET ".. \n• resolution: (%ld by %ld)\n", WINDOW_WIDTH, WINDOW_HEIGHT);
 

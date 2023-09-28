@@ -17,9 +17,8 @@ SDL_Surface *Load_Image(const char* file)
 {
     const char *extension = check_extension(file);
 
-    printf("ai ;3\n");
-
-    if(!extension) return NULL; 
+    if(!extension) return NULL;
+    
     else if (strcmp(extension, "jpg") || strcmp(extension, "jpeg") ||
              strcmp(extension, "png") || strcmp(extension, "tiff"))
         return IMG_Load(file);

@@ -14,5 +14,5 @@ dependencies = [ dependency('sdl2'), dependency('SDL2_image') ]
 executable('mefetch',
            sources,
            dependencies: dependencies,
-           c_args: cflags)
-
+            c_args: cflags
+)
